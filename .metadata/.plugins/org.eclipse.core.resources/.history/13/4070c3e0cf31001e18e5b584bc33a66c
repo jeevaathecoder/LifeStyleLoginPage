@@ -1,0 +1,5 @@
+package com.jeeva.registration;
+
+public @interface WebServlet {
+
+}

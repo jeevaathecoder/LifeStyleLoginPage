@@ -1,0 +1,141 @@
+/*
+External style sheet for the home page of "Lifestyle store" website.
+*/
+/* 
+    Created on : Aug 19, 2019, 1:16:15 PM
+    Author     : yaramala siva sai vardhan reddy.
+*/
+
+body{ width: 100%;
+    height: 100%;
+    margin: 0; 
+}
+a{ text-decoration: none;
+ background-color: transparent; 
+ color:#ededed; 
+}
+.header{ background-color:#000;
+       color:#fff; 
+       border-color: #080808;
+       min-height: 50px; 
+       border: 1px solid transparent;
+}
+.inner-header{
+             width:80%;
+             margin:auto;
+} 
+.logo{float: left;
+   height: 50px; 
+   padding: 15px; 
+   font-size: 20px; 
+   font-weight: bold;
+}
+.header-link{float:right;
+          font-size:14px; 
+          height: 50px;
+          padding: 15px 15px;
+          font-size:16px;
+          font-weight: bold;
+}
+.content{min-height: 600px;
+}
+.banner-image{padding-bottom: 80px;
+           margin-bottom: 20px;
+           text-align: center; 
+           color: #f8f8f8;
+           background: URL(img/intro-bg_1.jpg) no-repeat center;
+           background-size: cover;
+}
+.inner-banner-image{padding-top: 12%;
+                 width:80%;
+                 background-position:center; 
+                 margin:auto;
+}
+.banner_content{position: relative;
+             padding-top: 6%;
+             padding-bottom: 6%;
+             overflow:hidden;
+             margin-bottom: 12%;
+             background-color: rgba(0, 0, 0, 0.7);
+             max-width: 660px;
+}
+.button{color: #fff;
+     background-color: #c9302c;
+     border-color: #ac2925;
+     box-shadow: inset 0 3px 5pxrgba(0, 0, 0, .125);
+     padding: 10px 16px; 
+     font-size: 18px;
+     border-radius: 6px;
+     margin: 0% 40%
+}
+.container{width:90%;
+        margin:auto;
+        overflow:hidden;
+}
+.items{width:30%;
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143; 
+    background-color: #fff;
+    border: 1px solid #ddd; 
+    border-radius: 4px;
+    float:left; 
+    margin-left:1%;
+}
+.thumbnail{display: block;
+        max-width: 100%; 
+        height: auto;
+}
+.caption{color:#000;
+      padding:0px 10px 10px;
+      font-weight: bold; 
+      text-align: center;
+}
+
+/* Center the banner content using flexbox */
+.banner-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; /* Set the desired height of the banner */
+  background-color: #f1f1f1; /* Add background color or image for the banner */
+}
+
+.inner-banner-image {
+  text-align: center;
+}
+
+.banner_content {
+color: black;
+  max-width: 600px; /* Set the maximum width for the content */
+  padding: 20px;
+  background-color: #ffffff; /* Add background color for the content area */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for the content area */
+}
+
+.banner_content h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.banner_content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.banner_content .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Add desired button background color */
+  color: #ffffff; /* Add desired button text color */
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.banner_content .button:hover {
+  background-color: #45a049; /* Add desired button background color on hover */
+}

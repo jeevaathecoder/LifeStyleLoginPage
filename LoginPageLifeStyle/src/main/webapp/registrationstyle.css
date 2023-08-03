@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/* Reset margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1ac8;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left,
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.left {
+  animation: slide-left 1s ease-in-out forwards;
+}
+
+.right {
+  animation: slide-right 1s ease-in-out forwards;
+}
+
+h1,
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%; /* Adjust this value to control the width of the form */
+  max-width: 400px; /* Adjust this value to set a maximum width for the form */
+  margin: 0 auto; /* Centers the form horizontally within the .right div */
+}
+
+.form-group {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  min-width: 100px; /* Adjust this value to set a minimum width for the labels */
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  flex: 1; /* The input fields will take the remaining available width */
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 50%; /* The button will take the full width of the form */
+}
