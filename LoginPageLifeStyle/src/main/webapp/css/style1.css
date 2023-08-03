@@ -1,10 +1,4 @@
-/*
-External style sheet for the home page of "Lifestyle store" website.
-*/
-/* 
-    Created on : Aug 19, 2019, 1:16:15 PM
-    Author     : yaramala siva sai vardhan reddy.
-*/
+
 
 body{ width: 100%;
     height: 100%;
@@ -93,13 +87,13 @@ a{ text-decoration: none;
       text-align: center;
 }
 
-/* Center the banner content using flexbox */
+
 .banner-image {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px; /* Set the desired height of the banner */
-  background-color: #f1f1f1; /* Add background color or image for the banner */
+  height: 400px; 
+  background-color: #f1f1f1; 
 }
 
 .inner-banner-image {
@@ -108,10 +102,10 @@ a{ text-decoration: none;
 
 .banner_content {
 color: black;
-  max-width: 600px; /* Set the maximum width for the content */
+  max-width: 600px; 
   padding: 20px;
-  background-color: #ffffff; /* Add background color for the content area */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for the content area */
+  background-color: #ffffff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .banner_content h2 {
@@ -127,8 +121,8 @@ color: black;
 .banner_content .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #4CAF50; /* Add desired button background color */
-  color: #ffffff; /* Add desired button text color */
+  background-color: #4CAF50; 
+  color: #ffffff; 
   font-size: 16px;
   cursor: pointer;
   border: none;
@@ -137,5 +131,5 @@ color: black;
 }
 
 .banner_content .button:hover {
-  background-color: #45a049; /* Add desired button background color on hover */
+  background-color: #45a049; 
 }

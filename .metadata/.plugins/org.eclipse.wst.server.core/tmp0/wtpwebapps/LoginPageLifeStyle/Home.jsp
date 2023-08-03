@@ -59,7 +59,7 @@ if(session.getAttribute("username") == null){
     </div>
     <footer style="background-color: #000; color:#fff; font-size:14px;">
         <div class="container">
-            <p>Copyright � Jeevaathecoder. All Rights Reserved | Contact Us: +91 97894 60093</p>
+            <p>Copyright @ Jeevaathecoder. All Rights Reserved | Contact Us: +91 97894 60093</p>
         </div>
     </footer>
 </body>

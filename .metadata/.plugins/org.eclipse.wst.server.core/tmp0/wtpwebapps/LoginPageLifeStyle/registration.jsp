@@ -1,4 +1,4 @@
- <!DOCTYPE jsp>
+<!DOCTYPE jsp>
 <html lang="en">
 
     <head>
@@ -13,7 +13,7 @@
       <div class="container">
         <div class="left">
           <h1><span>Welcome to</span> Life Style</h1>
-          <p class="subtitle">Learn the New Technologies with us.</p>
+          <p class="subtitle">"Embrace Your Style, Elevate Your Life"</p>
         </div>
         <div class="right">
           <h2>Register</h2>
@@ -54,11 +54,11 @@
 <input type="hidden" id="status" value="<%= request.getAttribute("Status") %>">
 
 <script>
-  // Wait for the DOM to be fully loaded before accessing the "status" element
+ 
   document.addEventListener("DOMContentLoaded", function () {
     var status = document.getElementById("status").value;
     if (status === "success") {
-      // Display a success alert using a regular JavaScript alert()
+     
       alert('Registered Successfully!\nYou have been successfully registered.');
       window.location.href = "login.jsp";
     }

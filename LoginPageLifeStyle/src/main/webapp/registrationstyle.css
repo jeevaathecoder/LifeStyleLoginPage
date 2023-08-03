@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Reset margin and padding for all elements */
+
 * {
   margin: 0;
   padding: 0;
@@ -51,9 +51,9 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%; /* Adjust this value to control the width of the form */
-  max-width: 400px; /* Adjust this value to set a maximum width for the form */
-  margin: 0 auto; /* Centers the form horizontally within the .right div */
+  width: 80%; 
+  max-width: 400px;
+  margin: 0 auto; 
 }
 
 .form-group {
@@ -65,7 +65,7 @@ form {
 label {
   font-size: 1.2rem;
   margin-right: 1rem;
-  min-width: 100px; /* Adjust this value to set a minimum width for the labels */
+  min-width: 100px; 
 }
 
 input {
@@ -74,7 +74,7 @@ input {
   border-radius: 5px;
   border: none;
   outline: none;
-  flex: 1; /* The input fields will take the remaining available width */
+  flex: 1; 
 }
 
 button {
@@ -87,5 +87,5 @@ button {
   color: white;
   cursor: pointer;
   margin-top: 1rem;
-  width: 50%; /* The button will take the full width of the form */
+  width: 50%;
 }
